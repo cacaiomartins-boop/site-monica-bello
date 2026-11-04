@@ -1,7 +1,7 @@
 import { clinic, ebook, reviews } from "../data/clinic";
 import { StarIcon } from "./Icons";
 
-export default function Reviews() {
+export default function Reviews({ showEbook = true }: { showEbook?: boolean }) {
   return (
     <section id="depoimentos" className="section bg-rose-100">
       <div className="container-x">
@@ -27,15 +27,17 @@ export default function Reviews() {
           </a>
         </p>
 
-        <div className="mt-12 flex flex-col items-start justify-between gap-5 rounded-3xl border border-wine-800/15 bg-rose-50 p-7 md:flex-row md:items-center">
-          <div>
-            <h3 className="font-serif text-2xl font-semibold text-wine-800">{ebook.title}</h3>
-            <p className="mt-1 text-ink/75">{ebook.text}</p>
+        {showEbook && (
+          <div className="mt-12 flex flex-col items-start justify-between gap-5 rounded-3xl border border-wine-800/15 bg-rose-50 p-7 md:flex-row md:items-center">
+            <div>
+              <h3 className="font-serif text-2xl font-semibold text-wine-800">{ebook.title}</h3>
+              <p className="mt-1 text-ink/75">{ebook.text}</p>
+            </div>
+            <a href={clinic.ebook} target="_blank" rel="noopener noreferrer" className="btn-ghost">
+              {ebook.cta}
+            </a>
           </div>
-          <a href={clinic.ebook} target="_blank" rel="noopener noreferrer" className="btn-ghost">
-            {ebook.cta}
-          </a>
-        </div>
+        )}
       </div>
     </section>
   );

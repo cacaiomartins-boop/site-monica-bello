@@ -27,9 +27,86 @@ export const nav = [
   { href: "#sobre", label: "Sobre" },
   { href: "#para-quem", label: "Para quem" },
   { href: "#como-funciona", label: "Como funciona" },
+  { href: "/ansiedade/", label: "Ansiedade" },
   { href: "#depoimentos", label: "Depoimentos" },
   { href: "#duvidas", label: "Dúvidas" },
 ];
+
+// Menu da página da campanha (/ansiedade/)
+export const landingNav = [
+  { href: "#sinais", label: "Você se identifica?" },
+  { href: "#como-ajuda", label: "Como a terapia ajuda" },
+  { href: "#como-funciona", label: "Como funciona" },
+  { href: "#duvidas", label: "Dúvidas" },
+  { href: "/", label: "Início" },
+];
+
+// Página dedicada à especialidade, usada como destino dos anúncios.
+export const ansiedade = {
+  eyebrow: "Psicóloga para mulheres · Atendimento online",
+  title: "Ansiedade não precisa ser o seu normal",
+  text: "Atendimento psicológico online para mulheres que vivem com preocupação constante, autocobrança e a sensação de nunca dar conta. Sessões por vídeo, com escuta ética e sem julgamentos.",
+  points: [
+    "100% online, de onde você estiver",
+    "Vagas normalmente na mesma semana ou na seguinte",
+    "Psicóloga e psicanalista, CRP 06/236284",
+  ],
+  signs: {
+    title: "Você se identifica?",
+    intro: "A ansiedade nem sempre aparece como medo. Muitas vezes ela se disfarça de responsabilidade. Pode ser hora de buscar ajuda se:",
+    items: [
+      "Seus pensamentos não desligam, mesmo quando você está cansada",
+      "Nada do que você faz parece bom o bastante",
+      "Você sente culpa ao dizer não ou ao descansar",
+      "Tem medo de errar, de desagradar ou de ficar sozinha",
+      "O corpo reclama: tensão, insônia, cansaço, aperto no peito",
+      "Você depende da aprovação ou da presença de alguém para se sentir bem",
+    ],
+  },
+  help: {
+    title: "Como a terapia ajuda",
+    items: [
+      {
+        title: "Entender de onde vem",
+        text: "Na escuta psicanalítica, você olha para o que se repete na sua história e dá sentido ao que sente.",
+      },
+      {
+        title: "Aprender a lidar",
+        text: "Com a Inteligência Emocional, você reconhece o que sente e ganha recursos para responder sem se desgastar.",
+      },
+      {
+        title: "Ganhar autonomia",
+        text: "Aos poucos, as escolhas deixam de ser guiadas pelo medo e passam a refletir o que você deseja.",
+      },
+    ],
+  },
+  about: {
+    title: "Quem vai te atender",
+    text: "Sou Mônica Bello, psicóloga e psicanalista, com atendimento voltado à saúde mental das mulheres. Tenho especialização em Inteligência Emocional, estudo Neuropsicanálise e sou colunista da Psiquê Feminina.",
+  },
+  faq: [
+    {
+      q: "A terapia resolve a ansiedade?",
+      a: "A terapia ajuda você a entender e lidar melhor com a ansiedade, no seu ritmo. Quando for necessária uma avaliação médica, eu oriento o encaminhamento.",
+    },
+    {
+      q: "Quanto tempo dura o tratamento?",
+      a: "Depende de cada pessoa. Na primeira sessão conversamos sobre o que você vive e combinamos juntas como seguir.",
+    },
+    {
+      q: "Como funcionam as sessões online?",
+      a: "Por videochamada, em um lugar reservado. Você precisa só de celular ou computador com internet.",
+    },
+    {
+      q: "Como agendo?",
+      a: "Pelo botão de WhatsApp desta página ou pelo calendário do Doctoralia. O pagamento é por Pix e não há convênio.",
+    },
+    {
+      q: "E se eu estiver em crise agora?",
+      a: "Se você sente que pode se machucar ou está em sofrimento intenso, procure um pronto-socorro ou ligue para o CVV, no 188, que atende 24 horas, de graça.",
+    },
+  ],
+};
 
 export const hero = {
   title: "Um espaço de escuta para você se reencontrar",
@@ -95,6 +172,12 @@ export const steps = {
       title: "Construímos o seu processo",
       text: "A cada encontro, você entende melhor seus padrões e ganha mais clareza para fazer suas escolhas.",
     },
+  ],
+  info: [
+    { label: "Onde", value: "Online, por videochamada. Não há atendimento presencial." },
+    { label: "Horários", value: "Combinados pelo WhatsApp. Costuma haver vaga na mesma semana ou na seguinte." },
+    { label: "Pagamento", value: "Particular, por Pix. Não aceito convênios." },
+    { label: "Remarcação", value: "Sem custo, com aviso prévio." },
   ],
   abroad: {
     title: "Psicanálise para brasileiras no exterior",

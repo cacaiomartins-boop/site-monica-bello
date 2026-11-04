@@ -4,18 +4,18 @@ import { WhatsAppIcon } from "./Icons";
 
 export const waLink = `https://wa.me/${clinic.whatsapp}?text=${encodeURIComponent(clinic.whatsappMessage)}`;
 
-export default function Header() {
+export default function Header({ items = nav, logoHref = "#topo" }: { items?: { href: string; label: string }[]; logoHref?: string }) {
   const [open, setOpen] = useState(false);
 
   return (
     <header className="sticky top-0 z-40 border-b border-wine-800/10 bg-rose-50/90 backdrop-blur">
       <div className="container-x flex h-16 items-center justify-between gap-4">
-        <a href="#topo" className="font-serif text-2xl font-semibold text-wine-800">
+        <a href={logoHref} className="font-serif text-2xl font-semibold text-wine-800">
           {clinic.shortName}
         </a>
 
         <nav className="hidden items-center gap-7 lg:flex" aria-label="Principal">
-          {nav.map((n) => (
+          {items.map((n) => (
             <a key={n.href} href={n.href} className="text-sm font-medium text-ink/80 hover:text-gold-600">
               {n.label}
             </a>
@@ -43,7 +43,7 @@ export default function Header() {
       {open && (
         <nav className="border-t border-wine-800/10 bg-rose-50 lg:hidden" aria-label="Menu móvel">
           <div className="container-x flex flex-col py-3">
-            {nav.map((n) => (
+            {items.map((n) => (
               <a key={n.href} href={n.href} onClick={() => setOpen(false)} className="py-3 text-base font-medium text-ink/85">
                 {n.label}
               </a>
