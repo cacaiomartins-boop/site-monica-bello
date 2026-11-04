@@ -10,7 +10,7 @@ export default function Header({ items = nav, logoHref = "#topo" }: { items?: { 
   return (
     <header className="sticky top-0 z-40 border-b border-wine-800/10 bg-rose-50/90 backdrop-blur">
       <div className="container-x flex h-16 items-center justify-between gap-4">
-        <a href={logoHref} className="font-serif text-2xl font-semibold text-wine-800">
+        <a href={logoHref} className="font-script text-4xl leading-none text-wine-800">
           {clinic.shortName}
         </a>
 

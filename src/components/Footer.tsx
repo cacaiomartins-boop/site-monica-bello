@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="bg-wine-900 py-10 text-rose-100/80">
       <div className="container-x flex flex-col items-center gap-4 text-center text-sm md:flex-row md:justify-between md:text-left">
         <div>
-          <p className="font-serif text-xl font-semibold text-rose-50">{clinic.name}</p>
+          <p className="font-script text-3xl leading-none text-rose-50">{clinic.name}</p>
           <p>
             {clinic.title} · {clinic.crp}
           </p>

@@ -38,13 +38,13 @@ export default function AnsiedadePage() {
               <div className="absolute -inset-3 rounded-[2rem] border border-gold-400/60" aria-hidden="true" />
               <img
                 src={clinic.images.portrait}
-                alt="Mônica Bello, psicóloga e psicanalista"
+                alt="Monica Bello, psicóloga e psicanalista"
                 width={988}
                 height={988}
                 className="relative aspect-square w-full rounded-[1.6rem] object-cover shadow-xl shadow-wine-900/15"
               />
               <figcaption className="relative mt-4 text-center text-sm text-ink/70">
-                <strong className="font-serif text-lg text-wine-800">{clinic.name}</strong>
+                <strong className="font-script text-3xl font-normal text-wine-800">{clinic.name}</strong>
                 <br />
                 {clinic.title} · {clinic.crp}
               </figcaption>

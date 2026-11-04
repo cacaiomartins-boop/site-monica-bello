@@ -3,8 +3,8 @@
 // Valores de sessão NÃO aparecem no site (decisão padrão; confirmar com ela se quiser exibir).
 
 export const clinic = {
-  name: "Mônica Bello",
-  shortName: "Mônica Bello",
+  name: "Monica Bello",
+  shortName: "Monica Bello",
   title: "Psicóloga e Psicanalista",
   crp: "CRP 06/236284",
   city: "Piracicaba, SP",
@@ -12,7 +12,7 @@ export const clinic = {
   addressFull: "Rua Bernardino de Campos, 1823, Piracicaba, SP",
   whatsapp: "5519991776573",
   whatsappLabel: "(19) 99177-6573",
-  whatsappMessage: "Olá, Mônica! Vi seu site e gostaria de agendar uma sessão.",
+  whatsappMessage: "Olá, Monica! Vi seu site e gostaria de agendar uma sessão.",
   doctoralia: "https://www.doctoralia.com.br/perfil/monica-bello",
   instagram: "https://www.instagram.com/psi.monicabello",
   instagramHandle: "@psi.monicabello",
@@ -84,7 +84,7 @@ export const ansiedade = {
   },
   about: {
     title: "Quem vai te atender",
-    text: "Sou Mônica Bello, psicóloga e psicanalista, com atendimento voltado à saúde mental das mulheres. Tenho especialização em Inteligência Emocional, estudo Neuropsicanálise e sou colunista da Psiquê Feminina.",
+    text: "Sou Monica Bello, psicóloga e psicanalista, com atendimento voltado à saúde mental das mulheres. Tenho especialização em Inteligência Emocional, estudo Neuropsicanálise e sou colunista da Psiquê Feminina.",
   },
   faq: [
     {
@@ -200,7 +200,7 @@ export const reviews = {
 
 export const ebook = {
   title: "E-book: Como ser um psicanalista",
-  text: "Material para quem está começando na psicanálise, escrito por Mônica.",
+  text: "Material para quem está começando na psicanálise, escrito por Monica.",
   cta: "Conhecer o e-book",
 };
 

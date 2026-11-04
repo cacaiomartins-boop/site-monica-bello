@@ -10,7 +10,8 @@ export default {
         ink: "#3A2B2B",
       },
       fontFamily: {
-        serif: ['"Cormorant Garamond"', "Georgia", "serif"],
+        serif: ['"Playfair Display"', "Georgia", "serif"],
+        script: ['"Great Vibes"', "cursive"],
         sans: ['"DM Sans"', "system-ui", "sans-serif"],
       },
     },

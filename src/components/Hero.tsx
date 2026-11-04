@@ -28,7 +28,7 @@ export default function Hero() {
           <div className="absolute -inset-3 rounded-[2rem] border border-gold-400/60" aria-hidden="true" />
           <img
             src={clinic.images.portrait}
-            alt="Mônica Bello, psicóloga e psicanalista"
+            alt="Monica Bello, psicóloga e psicanalista"
             width={988}
             height={988}
             className="relative aspect-square w-full rounded-[1.6rem] object-cover shadow-xl shadow-wine-900/15"
