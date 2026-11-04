@@ -3,6 +3,7 @@ import Steps from "./components/Steps";
 import Reviews from "./components/Reviews";
 import Faq from "./components/Faq";
 import Cta from "./components/Cta";
+import MapSection from "./components/MapSection";
 import Footer from "./components/Footer";
 import WhatsAppFloat from "./components/WhatsAppFloat";
 import { CheckIcon, WhatsAppIcon } from "./components/Icons";
@@ -93,6 +94,7 @@ export default function AnsiedadePage() {
         <Reviews showEbook={false} />
         <Faq items={ansiedade.faq} />
         <Cta />
+        <MapSection />
       </main>
       <Footer />
       <WhatsAppFloat />

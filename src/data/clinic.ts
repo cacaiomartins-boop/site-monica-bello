@@ -8,6 +8,8 @@ export const clinic = {
   title: "Psicóloga e Psicanalista",
   crp: "CRP 06/236284",
   city: "Piracicaba, SP",
+  address: "Rua Bernardino de Campos, 1823",
+  addressFull: "Rua Bernardino de Campos, 1823, Piracicaba, SP",
   whatsapp: "5519991776573",
   whatsappLabel: "(19) 99177-6573",
   whatsappMessage: "Olá, Mônica! Vi seu site e gostaria de agendar uma sessão.",
@@ -174,7 +176,7 @@ export const steps = {
     },
   ],
   info: [
-    { label: "Onde", value: "Online, por videochamada. Não há atendimento presencial." },
+    { label: "Onde", value: "Online, por videochamada, de onde você estiver." },
     { label: "Horários", value: "Combinados pelo WhatsApp. Costuma haver vaga na mesma semana ou na seguinte." },
     { label: "Pagamento", value: "Particular, por Pix. Não aceito convênios." },
     { label: "Remarcação", value: "Sem custo, com aviso prévio." },
@@ -231,4 +233,10 @@ export const faq = {
 export const cta = {
   title: "Você não precisa dar conta de tudo sozinha",
   text: "Se você sente que é hora de cuidar de você, dê o primeiro passo. Vou ficar feliz em te ouvir.",
+};
+
+export const location = {
+  eyebrow: "Localização",
+  title: "Onde me encontrar",
+  text: "As sessões são feitas online, por videochamada. Meu endereço profissional fica em Piracicaba.",
 };
