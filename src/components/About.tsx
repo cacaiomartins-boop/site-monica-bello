@@ -8,9 +8,9 @@ export default function About() {
         <figure className="mx-auto w-full max-w-xs md:max-w-sm">
           <img
             src={clinic.images.space}
-            alt="Poltronas e vaso com orquídea no espaço de atendimento"
-            width={336}
-            height={530}
+            alt="Monica Bello, psicóloga, sentada segurando uma xícara"
+            width={672}
+            height={840}
             loading="lazy"
             className="aspect-[4/5] w-full rounded-[1.6rem] object-cover shadow-xl shadow-wine-900/15"
           />

@@ -19,7 +19,7 @@ export const clinic = {
   images: {
     portrait: "/img/monica-2.webp",
     portraitSet: "/img/monica-2-640.webp 640w, /img/monica-2.webp 988w",
-    space: "/img/espaco.webp",
+    space: "/img/monica-3.webp",
   },
 };
 
@@ -134,7 +134,7 @@ export const about = {
     "Especialização em Inteligência Emocional",
     "Colunista da Psiquê Feminina",
   ],
-  caption: "Meu espaço de atendimento",
+  caption: "Monica Bello, psicóloga e psicanalista",
 };
 
 export const topics = {
