@@ -21,7 +21,7 @@ export default function Footer() {
           </a>
         </div>
       </div>
-      <p className="container-x mt-6 text-center text-xs text-rose-100/50">
+      <p suppressHydrationWarning className="container-x mt-6 text-center text-xs text-rose-100/50">
         © {new Date().getFullYear()} {clinic.name}. Todos os direitos reservados.
       </p>
     </footer>
