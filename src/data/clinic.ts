@@ -17,8 +17,8 @@ export const clinic = {
   // Rótulo único do botão de ação, repetido no menu, no topo e no fim da página.
   cta: "Agendar sessão",
   images: {
-    portrait: "/img/monica-2.webp",
-    portraitSet: "/img/monica-2-640.webp 640w, /img/monica-2.webp 988w",
+    portrait: "/img/monica-4.webp",
+    portraitSet: "/img/monica-4-640.webp 640w, /img/monica-4.webp 988w",
     space: "/img/monica-3.webp",
   },
 };
