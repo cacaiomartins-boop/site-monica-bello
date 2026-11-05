@@ -10,7 +10,7 @@ export default function Footer() {
           <p>
             {clinic.title} · {clinic.crp}
           </p>
-          <p>Atendimento online · {clinic.city}</p>
+          <p>Atendimento online</p>
         </div>
         <div className="flex items-center gap-5">
           <a href={clinic.instagram} target="_blank" rel="noopener noreferrer" className="-my-3 inline-flex items-center gap-2 py-3 hover:text-gold-300">

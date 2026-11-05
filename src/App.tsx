@@ -7,7 +7,6 @@ import Steps from "./components/Steps";
 import Reviews from "./components/Reviews";
 import Faq from "./components/Faq";
 import Cta from "./components/Cta";
-import MapSection from "./components/MapSection";
 import Footer from "./components/Footer";
 import WhatsAppFloat from "./components/WhatsAppFloat";
 
@@ -24,7 +23,6 @@ export default function App() {
         <Reviews />
         <Faq />
         <Cta />
-        <MapSection />
       </main>
       <Footer />
       <WhatsAppFloat />

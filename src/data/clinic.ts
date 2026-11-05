@@ -7,9 +7,6 @@ export const clinic = {
   shortName: "Monica Bello",
   title: "Psicóloga e Psicanalista",
   crp: "CRP 06/236284",
-  city: "Piracicaba, SP",
-  address: "Rua Bernardino de Campos, 1823",
-  addressFull: "Rua Bernardino de Campos, 1823, Piracicaba, SP",
   whatsapp: "5519991776573",
   whatsappLabel: "(19) 99177-6573",
   whatsappMessage: "Olá, Monica! Vi seu site e gostaria de agendar uma sessão.",
@@ -20,8 +17,8 @@ export const clinic = {
   // Rótulo único do botão de ação, repetido no menu, no topo e no fim da página.
   cta: "Agendar sessão",
   images: {
-    portrait: "/img/monica.webp",
-    portraitSet: "/img/monica-640.webp 640w, /img/monica.webp 988w",
+    portrait: "/img/monica-2.webp",
+    portraitSet: "/img/monica-2-640.webp 640w, /img/monica-2.webp 988w",
     space: "/img/espaco.webp",
   },
 };
@@ -234,10 +231,4 @@ export const faq = {
 export const cta = {
   title: "Você não precisa dar conta de tudo sozinha",
   text: "Se você sente que é hora de cuidar de você, dê o primeiro passo. Vou ficar feliz em te ouvir.",
-};
-
-export const location = {
-  eyebrow: "Localização",
-  title: "Onde me encontrar",
-  text: "As sessões são feitas online, por videochamada. Meu endereço profissional fica em Piracicaba.",
 };
