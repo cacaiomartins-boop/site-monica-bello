@@ -21,7 +21,8 @@ export const clinic = {
   cta: "Agendar sessão",
   images: {
     portrait: "/img/monica.webp",
-    space: "/img/espaco.png",
+    portraitSet: "/img/monica-640.webp 640w, /img/monica.webp 988w",
+    space: "/img/espaco.webp",
   },
 };
 

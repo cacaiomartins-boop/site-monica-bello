@@ -10,7 +10,7 @@ export default function Reviews({ showEbook = true }: { showEbook?: boolean }) {
         <div className="mt-10 grid gap-5 md:grid-cols-3">
           {reviews.items.map((r) => (
             <figure key={r.text} className="rounded-3xl border border-gold-400/30 bg-rose-50 p-7">
-              <div className="flex gap-1 text-gold-500" aria-label="5 de 5 estrelas">
+              <div className="flex gap-1 text-gold-500" role="img" aria-label="5 de 5 estrelas">
                 {[0, 1, 2, 3, 4].map((i) => (
                   <StarIcon key={i} />
                 ))}

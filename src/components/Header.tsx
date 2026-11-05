@@ -28,7 +28,7 @@ export default function Header({ items = nav, logoHref = "#topo" }: { items?: { 
           </a>
           <button
             type="button"
-            className="rounded-lg p-2 text-wine-800 lg:hidden"
+            className="-mx-0.5 rounded-lg p-2.5 text-wine-800 lg:hidden"
             aria-label={open ? "Fechar menu" : "Abrir menu"}
             aria-expanded={open}
             onClick={() => setOpen((o) => !o)}

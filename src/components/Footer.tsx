@@ -13,10 +13,10 @@ export default function Footer() {
           <p>Atendimento online · {clinic.city}</p>
         </div>
         <div className="flex items-center gap-5">
-          <a href={clinic.instagram} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 hover:text-gold-300">
+          <a href={clinic.instagram} target="_blank" rel="noopener noreferrer" className="-my-3 inline-flex items-center gap-2 py-3 hover:text-gold-300">
             <InstagramIcon /> {clinic.instagramHandle}
           </a>
-          <a href={clinic.doctoralia} target="_blank" rel="noopener noreferrer" className="hover:text-gold-300">
+          <a href={clinic.doctoralia} target="_blank" rel="noopener noreferrer" className="-my-3 py-3 hover:text-gold-300">
             Doctoralia
           </a>
         </div>

@@ -38,6 +38,8 @@ export default function AnsiedadePage() {
               <div className="absolute -inset-3 rounded-[2rem] border border-gold-400/60" aria-hidden="true" />
               <img
                 src={clinic.images.portrait}
+            srcSet={clinic.images.portraitSet}
+            sizes="(min-width: 768px) 448px, 90vw"
                 alt="Monica Bello, psicóloga e psicanalista"
                 width={988}
                 height={988}
